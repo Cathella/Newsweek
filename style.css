@@ -8,10 +8,21 @@ h3 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-h5 {
+h4 {
     font-size: 17px;
-    line-height: 20px;
+    line-height: 21px;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3 a,
+h4 a {
+    color: #000;
+}
+
+h3 a:hover,
+h4 a:hover {
+    color: #000;
+    text-decoration: underline #f72210;
 }
 
 p {
@@ -19,4 +30,10 @@ p {
     line-height: 20px;
     font-size: 15px;
     color: #333;
+}
+
+.bot-logo svg {
+    width: 236px;
+    height: 36px;
+    fill: #f72210;
 }
