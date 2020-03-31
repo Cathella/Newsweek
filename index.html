@@ -21,7 +21,7 @@
                             <img width="24" src="https://g.newsweek.com/img/weather/33.png" alt="">25° null, UG
                         </a>
                     </p>
-                    <p class="date">Thu, Mar 26, 2020</p> 
+                    <p id="date-p">Thu, Mar 26, 2020</p> 
                 </li>
                 <li class="nav-item top-logo">
                     <a href="#">
@@ -55,6 +55,7 @@
             </ul>
         </nav>
     </header>
+
     <main class="container">
         <div class="row pt-4">
             <div class="col-md-4">
@@ -95,7 +96,7 @@
                 </div>
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1575945/cybersecurity-vantage-hp-sponsor.jpg?w=500&h=333&f=ac517642217c0d9cec695be60008ce2a" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#"> Weathering the Perfect Storm</a>
                     </h3>
@@ -103,15 +104,15 @@
                 </div>
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1571226/guest-house-oscala.jpg?w=500&h=333&f=d787e5d9fb89f5732572966a47675994" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">Who Leads the Field in Dependency Treatment in 2020?</a>
                     </h3>
                     <p>When seeking guidance on beating an addiction, there are many things to consider. Where do you go to ensure that you will not just turn the corner, but keep carrying on down the right road for the rest of your life? Find out more.</p>
                 </div>
                 <div>
-                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1570615/nw-james-bond-banner-sponsored.jpg?w=500&h=333&f=547001b6968bad8dcee8cf938a4c68ed" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <img class="img-fluid" src="https://d.newsweek.com/en/full/1567276/synergy-executive.png?w=500&h=333&f=e6fd82b7f70041bcbbe5be256d74024f" alt="Image">
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">Newsweek James Bond Special Edition</a>
                     </h3>
@@ -137,6 +138,13 @@
                     </h3>
                     <p>The Department of Labor revealed that initial jobless claims rose by 3.3 million last week as business were shut down by the coronavirus pandemic.</p>
                 </div>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576738/tom-brady-joe-montana.jpg?w=95&h=95&f=3f7bbe5345fe608ee97f603aa44f5d9f" alt="Image">
+                    <h4>
+                        <a href="#">Joe Montana Criticizes New England Patriots for Letting Tom Brady Leave</a>
+                    </h4>
+                    <p>After two decades in New England, Brady signed for the Tampa Bay Buccaneers last week and will end his career in Florida.</p>
+                </article>
                 <div class="pt-4">
                     <h5>Culture & Travel</h5>
                 </div>
@@ -167,129 +175,85 @@
                     </div>
                 </div>
                 <div class="pt-4">
-                    <h5>More Stories</h5>
+                    <h5 class="">More Stories</h5>
                 </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576811/graphic-provided-statista-shows-global-spread-new-coronavirus.jpg?w=95&h=95&f=a74c09840b00e06b8cd07713c33dd4fd" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">U.S. Now on Pace to Have Worst Coronavirus Outbreak Anywhere</a>
-                        </h4>
-                        <p>While Italy currently has the largest number of cases in the world, the U.S. is only a few thousand cases behind it. The country has reported nearly 70,000 cases and saw a 25 percent increase in deaths in a day.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576730/aircraft-grounded-planes-coronavirus-coronavirus-graveyard-9-11.jpg?w=95&h=95&f=89c8b88d4b3c24dba3bc9a7af7a4ba97" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Plane Graveyards Prepare for Busiest Time Since 9/11 Amid COVID-19 Crisis</a>
-                        </h4>
-                        <p>Coronavirus has throttled the travel industry, meaning airlines have to find somewhere to store hundreds of disused aircraft.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576734/party.jpg?w=95&h=95&f=979a892bf7cac657426fd325967500ab" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Doctors Condemn Young People Having Parties Amid Coronavirus Outbreak</a>
-                        </h4>
-                        <p>Police are still breaking up mass gatherings of teenagers and young adults across the country.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576709/elon-musk.jpg?w=95&h=95&f=9c342b467f03f843e3cc48a4351d0127" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Elon Musk Says New York Tesla Factory to Reopen for Ventilator Production</a>
-                        </h4>
-                        <p>"Giga New York will reopen for ventilator production as soon as humanly possible," Musk tweeted this week. "We will do anything in our power to help the citizens of New York."</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576696/wall-street.jpg?w=95&h=95&f=debab181d0e293e1ea6274c8e1bdd954" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Ex-Wells Fargo CEO Says People Should Return to Work to Save Economy</a>
-                        </h4>
-                        <p>Dick Kovacevich joins a number of executives concerned that at the damage COVID-19 will do to the economy.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576697/bernie-sanders-coronavirus-roundtable.jpg?w=95&h=95&f=b4df32a00ee752c8eaa7973adb3b4369" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Bernie Sanders Scolds Republicans Opposed to Unemployment Benefit Boost</a>
-                        </h4>
-                        <p>The Vermont senator mockingly said the universe was collapsing because American workers would get an extra $600 a week on unemployment payments.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576669/donald-trump.jpg?w=95&h=95&f=9496622f2944e8266016e83f2e54193b" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">32 Bipartisan Economists Urges U.S. in Letter Not to Reopen Prematurely</a>
-                        </h4>
-                        <p>"Saving lives and saving the economy are not in conflict right now; we will hasten the return to robust economic activity by taking steps to stem the spread of the virus and save lives," the letter read.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576569/afghanistan-sikh-hindu-temple-isis-attack.jpg?w=95&h=95&f=efa1b29dd4749ac0e5500f52cd268ea1" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Afghanistan, Taliban Agree to Free Prisoners Amid Coronavirus, ISIS Threats</a>
-                        </h4>
-                        <p>Afghanistan will free 100 Taliban prisoners "on humanitarian grounds—including health, age and vulnerability to COVID19," but new ISIS-claimed violence threatens to upend a delicate peace process.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1575720/new-york-stock-exchange.jpg?w=95&h=95&f=ad7892a34af80f155955dd0cf446dd16" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Will the Coming Recession Be as Bad or Worse Than the Great Depression?</a>
-                        </h4>
-                        <p>The U.S. Senate has approved a $1.8 trillion stimulus package as the economy reels from shutdowns caused by the coronavirus.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576801/coronavirus-impact-space.jpg?w=95&h=95&f=9269caddcf0b946463f0c7e875c46bb5" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Third of Mankind Enters Coronavirus Lockdown, Impact Can Be Seen From Space</a>
-                        </h4>
-                        <p>Satellite images show deserted roads, tourist attractions, malls and airports.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="https://d.newsweek.com/en/full/1576738/tom-brady-joe-montana.jpg?w=95&h=95&f=3f7bbe5345fe608ee97f603aa44f5d9f" alt="Image">
-                    </div>
-                    <div class="col-md-9">
-                        <h4>
-                            <a href="#">Joe Montana Criticizes New England Patriots for Letting Tom Brady Leave</a>
-                        </h4>
-                        <p>After two decades in New England, Brady signed for the Tampa Bay Buccaneers last week and will end his career in Florida./p>
-                    </div>
-                </div>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576811/graphic-provided-statista-shows-global-spread-new-coronavirus.jpg?w=95&h=95&f=a74c09840b00e06b8cd07713c33dd4fd" alt="Image">
+                    <h4>
+                        <a href="#">U.S. Now on Pace to Have Worst Coronavirus Outbreak Anywhere</a>
+                    </h4>
+                    <p>While Italy currently has the largest number of cases in the world, the U.S. is only a few thousand cases behind it. The country has reported nearly 70,000 cases and saw a 25 percent increase in deaths in a day.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576730/aircraft-grounded-planes-coronavirus-coronavirus-graveyard-9-11.jpg?w=95&h=95&f=89c8b88d4b3c24dba3bc9a7af7a4ba97" alt="Image">
+                    <h4>
+                        <a href="#">Plane Graveyards Prepare for Busiest Time Since 9/11 Amid COVID-19 Crisis</a>
+                    </h4>
+                    <p>Coronavirus has throttled the travel industry, meaning airlines have to find somewhere to store hundreds of disused aircraft.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576734/party.jpg?w=95&h=95&f=979a892bf7cac657426fd325967500ab" alt="Image">
+                    <h4>
+                        <a href="#">Doctors Condemn Young People Having Parties Amid Coronavirus Outbreak</a>
+                    </h4>
+                    <p>Police are still breaking up mass gatherings of teenagers and young adults across the country.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576709/elon-musk.jpg?w=95&h=95&f=9c342b467f03f843e3cc48a4351d0127" alt="Image">
+                    <h4>
+                        <a href="#">Elon Musk Says New York Tesla Factory to Reopen for Ventilator Production</a>
+                    </h4>
+                    <p>"Giga New York will reopen for ventilator production as soon as humanly possible," Musk tweeted this week. "We will do anything in our power to help the citizens of New York."</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576696/wall-street.jpg?w=95&h=95&f=debab181d0e293e1ea6274c8e1bdd954" alt="Image">
+                    <h4>
+                        <a href="#">Ex-Wells Fargo CEO Says People Should Return to Work to Save Economy</a>
+                    </h4>
+                    <p>Dick Kovacevich joins a number of executives concerned that at the damage COVID-19 will do to the economy.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576697/bernie-sanders-coronavirus-roundtable.jpg?w=95&h=95&f=b4df32a00ee752c8eaa7973adb3b4369" alt="Image">
+                    <h4>
+                        <a href="#">Bernie Sanders Scolds Republicans Opposed to Unemployment Benefit Boost</a>
+                    </h4>
+                    <p>The Vermont senator mockingly said the universe was collapsing because American workers would get an extra $600 a week on unemployment payments.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576669/donald-trump.jpg?w=95&h=95&f=9496622f2944e8266016e83f2e54193b" alt="Image">
+                    <h4>
+                        <a href="#">32 Bipartisan Economists Urges U.S. in Letter Not to Reopen Prematurely</a>
+                    </h4>
+                    <p>"Saving lives and saving the economy are not in conflict right now; we will hasten the return to robust economic activity by taking steps to stem the spread of the virus and save lives," the letter read.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576569/afghanistan-sikh-hindu-temple-isis-attack.jpg?w=95&h=95&f=efa1b29dd4749ac0e5500f52cd268ea1" alt="Image">
+                    <h4>
+                        <a href="#">Afghanistan, Taliban Agree to Free Prisoners Amid Coronavirus, ISIS Threats</a>
+                    </h4>
+                    <p>Afghanistan will free 100 Taliban prisoners "on humanitarian grounds—including health, age and vulnerability to COVID19," but new ISIS-claimed violence threatens to upend a delicate peace process.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1575720/new-york-stock-exchange.jpg?w=95&h=95&f=ad7892a34af80f155955dd0cf446dd16" alt="Image">
+                    <h4>
+                        <a href="#">Will the Coming Recession Be as Bad or Worse Than the Great Depression?</a>
+                    </h4>
+                    <p>The U.S. Senate has approved a $1.8 trillion stimulus package as the economy reels from shutdowns caused by the coronavirus.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576801/coronavirus-impact-space.jpg?w=95&h=95&f=9269caddcf0b946463f0c7e875c46bb5" alt="Image">
+                    <h4>
+                        <a href="#">Third of Mankind Enters Coronavirus Lockdown, Impact Can Be Seen From Space</a>
+                    </h4>
+                    <p>Satellite images show deserted roads, tourist attractions, malls and airports.</p>
+                </article>
+                <article>
+                    <img class="float-left pad-image" src="https://d.newsweek.com/en/full/1576738/tom-brady-joe-montana.jpg?w=95&h=95&f=3f7bbe5345fe608ee97f603aa44f5d9f" alt="Image">
+                    <h4>
+                        <a href="#">Joe Montana Criticizes New England Patriots for Letting Tom Brady Leave</a>
+                    </h4>
+                    <p>After two decades in New England, Brady signed for the Tampa Bay Buccaneers last week and will end his career in Florida.</p>
+                </article>
             </div>
             <div class="col-md-3">
                 <div>
@@ -439,7 +403,7 @@
 
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1559216/tokyo-my-city-chizu-nakamoto.jpg?w=500&h=333&f=9c0c7599e1d2310c5649861e93649619" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">Female Entrepreneur Active in Tokyo and Uganda</a>
                     </h3>
@@ -448,7 +412,7 @@
                 <div>missing content</div>
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1576572/shutterstock-680368252.jpg?w=500&h=333&f=72d533330ba92c6f1f08392706a99bf5" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">Cryptocurrencies: A Safe Investment inTimes of Crisis?</a>
                     </h3>
@@ -456,7 +420,7 @@
                 </div>
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1575753/international-institute-management-development-imd.jpg?w=500&h=333&f=61e06c23b210cebda3629ccd2097e2cb" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">How Can a Good Business Education Benefit You?</a>
                     </h3>
@@ -464,7 +428,7 @@
                 </div>
                 <div>
                     <img class="img-fluid" src="https://d.newsweek.com/en/full/1563375/delphian-school.jpg?w=500&h=333&f=c4fe893bfb5642271e1298b1bea3989b" alt="Image">
-                    <a class="image-badge" href="#">SPONSORED INSIGHT</a>
+                    <a class="image-badge sponsored" href="#">SPONSORED INSIGHT</a>
                     <h3>
                         <a href="#">What Can A Private Education Do For Your Child?</a>
                     </h3>
