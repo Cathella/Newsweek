@@ -123,4 +123,11 @@ p {
     background: rgba(255, 255, 255, .8);
     padding: 11px;
     font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
 }
+
+/* #featured,
+#opinion {
+    position: relative;
+    height: 2700px;
+} */
