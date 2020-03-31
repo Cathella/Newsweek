@@ -140,3 +140,17 @@ article {
     border-top: 1px solid #ddd;
     padding-top: 1em;
 }
+
+.author {
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+
+#opinion article {
+    padding-bottom: 1em;
+}
