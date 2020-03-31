@@ -154,3 +154,30 @@ article {
 #opinion article {
     padding-bottom: 1em;
 }
+
+.category {
+  margin-top: .7em;
+  margin-bottom: 1em;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.category a {
+  color: #f72210;
+}
+
+.cat {
+  padding: 0 7px;
+  background-color: #f72210;
+  color: white;
+  margin-right: 7px;
+}
+
+#culture h6 {
+  font: 20px/22px "Lora",serif;
+}
+
+h6 a {
+  color: #333;
+}
