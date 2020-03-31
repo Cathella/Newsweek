@@ -31,7 +31,7 @@ h3 a,
 h4 a,
 h3 a:hover,
 h4 a:hover {
-  color: #000;
+    color: #000;
 }
 
 h5 {
@@ -42,32 +42,32 @@ h5 {
 
 h3 a:hover,
 h4 a:hover { 
-  text-decoration: underline #f72210;
+    text-decoration: underline #f72210;
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 20px;
-  font-size: 15px;
-  color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    font-size: 15px;
+    color: #333;
 }
 
 .bot-logo svg {
-  width: 236px;
-  height: 36px;
-  fill: #f72210;
+    width: 236px;
+    height: 36px;
+    fill: #f72210;
 }
 
 .top-logo svg {
-  width: 369px;
-  height: 60px;
-  fill: #fff;
+    width: 369px;
+    height: 60px;
+    fill: #fff;
 }
 
 .red-nav {
-  background: #f72210;
-  padding-top: 1em;
-  padding-bottom: 1em;
+    background: #f72210;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .red-nav p,
@@ -100,6 +100,11 @@ p {
     color: #000;
 }
 
+.sec-nav a:hover {
+  text-decoration: none;
+  color: #f72210;
+}
+
 .sec-nav ul 
 {
     padding: .45em 0;
@@ -108,4 +113,14 @@ p {
 .sec-nav ul li {
     border-right: 1px solid #eee;
     padding: 0 0.55em;
+}
+
+.image-badge {
+    color: #f72210;
+    font-weight: 700;
+    position: relative;
+    top: -2em;
+    background: rgba(255, 255, 255, .8);
+    padding: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
 }
