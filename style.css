@@ -267,3 +267,15 @@ margin: 14px auto 18px;
   text-transform: capitalize;
   font-family: "Lora",serif;
 }
+
+#social a {
+  color: #666;
+  margin-left: .4em;
+  font-size: 23px;
+}
+
+.first-ul a,
+.first-ul {
+  color: #333;
+  font-size: 14px;
+}
