@@ -69,15 +69,26 @@ h5 {
 }
 
 .buttons,
-.buttons button {
+.buttons button,
+.subscribe button,
+.newsletter button {
   font-size: 18px;
   text-transform: uppercase;
 }
 
-.buttons button {
+.buttons button,
+.subscribe button,
+.newsletter button {
   background: #fff;
   border: 1px solid #fff;
   margin-left: 1em;
+}
+
+.subscribe button,
+.newsletter button {
+  background-color: #f72210;
+  color: #fff;
+  padding: 8px 14px 8px 14px;
 }
 
 .sec-nav a {
@@ -278,4 +289,26 @@ margin: 14px auto 18px;
 .first-ul {
   color: #333;
   font-size: 14px;
+}
+
+.front-img {
+  position: absolute;
+  top: 6%;
+  left: 35%;
+}
+
+.subscribe {
+  background: #f4f5f6;
+  height: 323px;
+}
+
+.newsletter-bg {
+  background: url(https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&h=265&q=90&f=742bce9a6f72dd8f19ba2e7fd5db06e5) no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 323px;
+}
+
+.red-head {
+  color: #f72210;
 }
