@@ -346,7 +346,7 @@ article {
   width: 100%;
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
   .top-logo svg {
     width: 132px;
     height: 20px;
@@ -362,6 +362,7 @@ article {
     display: block;
   }
 
+  .red-head,
   #opinion {
     margin-top: 1em;
   }
@@ -369,6 +370,41 @@ article {
   .need-in-center {
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .minus-el {
+    display: none;
+  }
+
+  .top-story-head,
+  .side-thumbs {
+    margin-top: 1em;
+  }
+
+  .subscribe,
+  .newsletter {
+    height: auto;
+  }
+
+  .newsletter {
+    padding-left: 2em;
+  }
+
+  .bot-logo {
+    flex: none;
+  }
+
+  .bot-logo a,
+  .bot-logo span {
+    display: block;
+  }
+
+  #social {
+    float: none !important;
+    margin-left: 1em;
+    margin-top: 1em;
   }
 }
 
