@@ -6,17 +6,6 @@ p {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 20px;
   font-size: 15px;
-  color: #333;
-}
-
-h3,
-h4,
-h5,
-header,
-.red-nav p,
-button {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
 }
 
 h3 {
@@ -26,6 +15,10 @@ h3 {
 
 h4 {
   font-size: 17px;
+}
+
+h4,
+.author {
   line-height: 21px;
 }
 
@@ -34,8 +27,29 @@ h4 a {
   color: #000;
 }
 
+p,
+h6 a,
+.first-ul a,
+.first-ul {
+  color: #333;
+}
+
+h3,
+h4,
+h5,
+header,
+.red-nav p,
+button,
+.image-badge,
+.author,
+.category,
+.see-all,
+.focus {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+}
+
 h5 {
-  color: rgba(3, 3, 3, 0.4);
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -63,9 +77,14 @@ h5 {
   color: #fff;
 }
 
+h5,
+#culture p {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 .date-p {
-    font-weight: 400;
-    font-size: 18px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 .buttons,
@@ -91,8 +110,17 @@ h5 {
   padding: 8px 14px 8px 14px;
 }
 
+.first-ul a,
+.first-ul {
+  font-size: 14px;
+}
+
 .sec-nav a {
   color: #000;
+}
+
+.category a {
+  color: #f72210;
 }
 
 .buttons button a {
@@ -115,12 +143,10 @@ h5 {
 
 .image-badge {
   color: #f72210;
-  font-weight: 700;
   position: relative;
   top: -2em;
   background: rgba(255, 255, 255, 0.8);
   padding: 11px;
-  font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
 }
 
@@ -144,42 +170,33 @@ h4 a:hover {
 }
 
 .pad-image {
-    margin-right: 1em;
+  margin-right: 1em;
 }
 
 .heading-border {
-    border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
 }
 
 article {
-    border-top: 1px solid #ddd;
-    padding-top: 1em;
+  border-top: 1px solid #ddd;
+  padding-top: 1em;
 }
 
 .author {
-    font-size: 14px;
-    line-height: 21px;
-    color: #555;
-    text-transform: uppercase;
-    margin-top: 4px;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 700;
+  font-size: 14px;
+  color: #555;
+  text-transform: uppercase;
+  margin-top: 4px;
 }
 
 #opinion article {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .category {
-  margin-top: .7em;
+  margin-top: 0.7em;
   margin-bottom: 1em;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 700;
   text-transform: uppercase;
-}
-
-.category a {
-  color: #f72210;
 }
 
 .cat {
@@ -190,16 +207,12 @@ article {
 }
 
 #culture h6 {
-  font: 20px/22px "Lora",serif;
+  font: 20px/22px "Lora", serif;
 }
 
-#culture p {
+/* #culture p {
   color: rgba(3, 3, 3, 0.4);
-}
-
-h6 a {
-  color: #333;
-}
+} */
 
 .need-padding {
   padding: 15px;
@@ -212,34 +225,32 @@ h6 a {
 .see-all {
   display: block;
   text-transform: uppercase;
-text-align: center;
-background: #f4f5f6;
-color: black;
-padding: 12px;
-margin-top: -24px;
-font-family: 'Roboto Condensed', sans-serif;
-font-weight: 700;
+  text-align: center;
+  background: #f4f5f6;
+  color: black;
+  padding: 12px;
+  margin-top: -24px;
 }
 
 .cat-heading {
   text-transform: uppercase;
-  font: bold 19px/19px "Roboto Condensed",sans-serif;
+  font: bold 19px/19px "Roboto Condensed", sans-serif;
 }
 
 .slides-no {
   width: 70px;
-height: 52px;
-display: block;
-position: relative;
-top: -52px;
-left: 0;
-font-weight: bold;
-font-size: 20px;
-line-height: 58px;
-text-indent: 5px;
-text-align: center;
-background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
-color: #e9212e;
+  height: 52px;
+  display: block;
+  position: relative;
+  top: -52px;
+  left: 0;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 58px;
+  text-indent: 5px;
+  text-align: center;
+  background: url(https://g.newsweek.com/themes/newsweek/images/icon-slideshows-nw.png) 0 0/contain no-repeat;
+  color: #e9212e;
 }
 
 .color-red {
@@ -248,21 +259,28 @@ color: #e9212e;
 
 .prof {
   position: relative;
-  top: 10%;
-  left: 50%;
+  top: -40%;
+
+  /* left: 50%; */
   max-width: inherit;
-  width: auto;
+  width: 63px;
+}
+
+.line-thru {
+  border-top: 1px solid #bbb;
+  background-color: #eee;
+  height: 3px;
 }
 
 .vs {
   width: 40px;
-height: 40px;
-background-color: #000;
-color: #d6d6d6;
-border-radius: 50%;
-font: bold 14px/40px "Roboto Condensed",sans-serif;
-text-align: center;
-margin: 14px auto 18px;
+  height: 40px;
+  background-color: #000;
+  color: #d6d6d6;
+  border-radius: 50%;
+  font: bold 14px/40px "Roboto Condensed", sans-serif;
+  text-align: center;
+  margin: 14px auto 18px;
 }
 
 .red-border {
@@ -280,19 +298,13 @@ margin: 14px auto 18px;
   padding: 6px 8px;
   font-size: 13px;
   text-transform: capitalize;
-  font-family: "Lora",serif;
+  font-family: "Lora", serif;
 }
 
 #social a {
   color: #666;
-  margin-left: .4em;
+  margin-left: 0.4em;
   font-size: 23px;
-}
-
-.first-ul a,
-.first-ul {
-  color: #333;
-  font-size: 14px;
 }
 
 .front-img {
@@ -324,12 +336,14 @@ margin: 14px auto 18px;
   color: white;
   top: -1.5em;
   text-transform: uppercase;
-  font-family: "Roboto Condensed",sans-serif;
-  font-weight: 700;
 }
 
 #tab-nav {
   display: none;
+}
+
+.full-feat-img {
+  width: 100%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -346,6 +360,15 @@ margin: 14px auto 18px;
 
   #tab-nav {
     display: block;
+  }
+
+  #opinion {
+    margin-top: 1em;
+  }
+
+  .need-in-center {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
