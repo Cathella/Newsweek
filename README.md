@@ -3,14 +3,14 @@
 ![screenshot](./Screenshot.png)
 
 ## Project Description
-This project required that we replicate [The Newsweek Homepage](https://www.newsweek.com/) using a css grid framework. I used boostrap to create this project in its responsive nature. I also exploited some of the utility classes just to make all elements appear well on the homepage throught all the screen viewports.
+This project required that we replicate [The Newsweek Homepage](https://www.newsweek.com/) using a css grid framework. I used boostrap to create this project in its responsive nature. I also exploited some of the utility classes just to make all elements appear well on the homepage throughout all the screen viewports.
 
 ## How it was Implemented
 
 I considered creating the desktop view first then continued to make it responsive with smaller and bigger screen sizes using the .col-md-*, .col-sm-* and .col-lg-* bootstrap classes.
 Since it is a framework, these classes are already defined in the boostrap.css minified file.
 
-Please checkout the live version of the implemented project [here](https://raw.githack.com/Cathella/the_next_web/responsive/index.html)
+Please checkout the live version of the implemented project [here](https://raw.githack.com/Cathella/Newsweek/home/index.html)
 
 ## Built With
 
