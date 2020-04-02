@@ -135,6 +135,10 @@ h4 a:hover {
   color: #f72210;
 }
 
+.sec-nav input {
+  width: 140px;
+}
+
 .sponsored {
   color: #3581f4;
 }
@@ -311,4 +315,63 @@ margin: 14px auto 18px;
 
 .red-head {
   color: #f72210;
+}
+
+.focus {
+  position: relative;
+  padding: 3px 10px;
+  background-color: #f72210;
+  color: white;
+  top: -1.5em;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed",sans-serif;
+  font-weight: 700;
+}
+
+#tab-nav {
+  display: none;
+}
+
+@media only screen and (max-width: 991px) {
+  .top-logo svg {
+    width: 132px;
+    height: 20px;
+    margin-right: 2em;
+  }
+
+  #des-nav,
+  .sec-nav {
+    display: none;
+  }
+
+  #tab-nav {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  #weather span {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .buttons,
+  .buttons button {
+    font-size: 14px;
+  }
+
+  .buttons button {
+    margin-left: 0;
+  }
+
+  .top-logo svg {
+    margin-right: 0.5em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #weather {
+    display: none;
+  }
 }
