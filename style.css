@@ -123,7 +123,7 @@ h5,
   color: #f72210;
 }
 
-.buttons button a {
+.buttons button {
   color: #f72210;
 }
 
@@ -210,15 +210,11 @@ article {
   font: 20px/22px "Lora", serif;
 }
 
-/* #culture p {
-  color: rgba(3, 3, 3, 0.4);
-} */
-
 .need-padding {
   padding: 15px;
 }
 
-#sponsored-insight {
+.sponsored-insight {
   margin-top: 30px;
 }
 
