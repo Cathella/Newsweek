@@ -132,13 +132,25 @@ h5,
   font-size: 19px;
 }
 
+.sec-nav::before {
+  position: absolute;
+  top: 108px;
+  right: 0;
+  content: "";
+  display: block;
+  width: 75px;
+  background-color: #f72210;
+  border-left: 12px solid white;
+  border-top: 13px solid #f72210;
+}
+
 .sec-nav ul {
   padding: 0.45em 0;
 }
 
 .sec-nav ul li {
   border-right: 1px solid #eee;
-  padding: 0 0.55em;
+  padding: 0 1%;
 }
 
 .image-badge {
@@ -161,8 +173,13 @@ h4 a:hover {
   color: #f72210;
 }
 
+.fa-search {
+  position: relative;
+  left: 80px;
+}
+
 .sec-nav input {
-  width: 140px;
+  width: 100px;
 }
 
 .sponsored {
@@ -256,8 +273,6 @@ article {
 .prof {
   position: relative;
   top: -40%;
-
-  /* left: 50%; */
   max-width: inherit;
   width: 63px;
 }
@@ -367,6 +382,16 @@ article {
     margin-right: auto;
     margin-left: auto;
   }
+
+  .negate-margin {
+    margin-left: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 841px) {
+  .plus-ml {
+    padding-left: 3%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -382,6 +407,12 @@ article {
   .subscribe,
   .newsletter {
     height: auto;
+    text-align: center;
+  }
+
+  .multi-cover {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .newsletter {
@@ -389,18 +420,17 @@ article {
   }
 
   .bot-logo {
-    flex: none;
-  }
-
-  .bot-logo a,
-  .bot-logo span {
-    display: block;
+    display: block !important;
   }
 
   #social {
     float: none !important;
     margin-left: 1em;
     margin-top: 1em;
+  }
+
+  .ppp {
+    margin-left: -2%;
   }
 }
 
